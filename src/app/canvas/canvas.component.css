@@ -1,0 +1,22 @@
+.hidden {
+  display: none;
+}
+.svg-wrapper {
+  margin: 300px;
+  position: relative;
+}
+.svg-holder {
+  position: relative;
+  z-index: 1;
+  outline: 1px dotted blue;
+  display: inline-block;
+
+}
+.background {
+  opacity: 0.4;
+  position: absolute;
+}
+
+svg {
+  display: block;
+}

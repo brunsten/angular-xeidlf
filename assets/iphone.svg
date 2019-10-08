@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" #svgElement xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+    <defs>
+      <clipPath id="clip-iPhone_X_XS_1">
+        <rect width="375" height="812"/>
+      </clipPath>
+    </defs>
+    <g id="iPhone_X_XS_1" data-name="iPhone X/XS – 1" clip-path="url(#clip-iPhone_X_XS_1)">
+      <rect width="375" height="812" fill="#fff"/>
+      <image id="img-background" #imgBackground preserveAspectRatio="none" /> 
+      <g id="element-1" transform="translate(0 369)" fill="rgba(32,145,179,0.5)">
+        <path d="M 511.133544921875 442.5 L 0.8664544224739075 442.5 L 256 0.9993875622749329 L 511.133544921875 442.5 Z" stroke="none"/>
+        <path d="M 256 1.99859619140625 L 1.732818603515625 442 L 510.2671813964844 442 L 256 1.99859619140625 M 256 3.0517578125e-05 L 512 443 L 0 443 L 256 3.0517578125e-05 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="logo-wrapper" transform="translate(177 621)" fill="#fff">
+        <path d="M 166.5 165.5 L 0.5 165.5 L 0.5 0.5 L 166.5 0.5 L 166.5 165.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 165 L 166 165 L 166 1 L 1 1 M 0 0 L 167 0 L 167 166 L 0 166 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="element-2" transform="translate(0 643)" fill="rgba(32,145,179,0.5)">
+        <path d="M 194.13427734375 168.5 L 0.8657152652740479 168.5 L 97.49996185302734 1.000556707382202 L 194.13427734375 168.5 Z" stroke="none"/>
+        <path d="M 97.49996185302734 2.0010986328125 L 1.73138427734375 168 L 193.2685546875 168 L 97.49996185302734 2.0010986328125 M 97.49996185302734 0 L 194.9999542236328 169 L -1.52587890625e-05 169 L 97.49996185302734 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="txt-header">
+        <rect id="bounds" width="276" height="27" transform="translate(68 120)" fill="none"/>
+        <text id="header" transform="translate(68 142)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Header</tspan></text>
+      </g>
+      <g id="txt-descriptions" transform="translate(0 56)">
+        <rect id="bounds-2" data-name="bounds" width="276" height="62" transform="translate(68 120)" fill="none"/>
+        <text id="header-2" data-name="header" transform="translate(68 142)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">description description</tspan><tspan x="0" y="27">description description</tspan></text>
+      </g>
+    </g>
+  </svg>

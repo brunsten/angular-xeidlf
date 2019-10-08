@@ -1,0 +1,20 @@
+
+<span (click)="toggleCanvas()">Visa / Göm Canvas</span>
+<div class="svg-wrapper" [class.hidden]="false">
+  
+    <img id="test" class="background" #image [style.top.px]="backgroundImageY" [style.left.px]="backgroundImageX" [style.width.px]="backgroundImageWidth" [style.height.px]="backgroundImageHeight">
+
+  
+  <div #svgHolder class="svg-holder"> 
+  
+
+
+  </div>
+
+</div>
+
+<div #canvasOutput [class.hidden]="false">
+</div>
+
+<input placeholder="img url" (input)="updateHref()" [(ngModel)]="imageSrc">
+
