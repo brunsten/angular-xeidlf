@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import * as html2canvas from 'html2canvas';
+import html2canvas from 'html2canvas';
 import { contain, cover } from '../test';
 import { Subscription, zip} from 'rxjs';
 import { first } from 'rxjs/operators';
@@ -16,6 +16,7 @@ export class CanvasComponent implements OnInit {
   showCanvas = false;
   @ViewChild('canvasOutput', {static: true}) output: ElementRef<HTMLDivElement>;
   @ViewChild('svgHolder', {static: true}) svgHolder: ElementRef<HTMLDivElement>;
+  
   svgImage: SVGImageElement;
   @ViewChild('image', {static: true}) image: ElementRef<HTMLImageElement>;
   svgElement: SVGSVGElement;
@@ -24,6 +25,7 @@ export class CanvasComponent implements OnInit {
   backgroundImageWidth: number;
   backgroundImageHeight: number;
   imageSrc: string = 'https://images.unsplash.com/photo-1510130387422-82bed34b37e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80';
+  imgOutputSrc: string;
   onImageLoad: Subscription;
   svgBoundings: ClientRect;
   imageBoundings: {minX: number, maxX: number, minY: number, maxY:number};
@@ -87,8 +89,10 @@ export class CanvasComponent implements OnInit {
     
     
       this.output.nativeElement.innerHTML = '';
-      html2canvas.default(this.svgHolder.nativeElement as HTMLElement).then((canvas) => {
-      this.output.nativeElement.appendChild(canvas);
+      html2canvas(this.svgHolder.nativeElement as HTMLElement,
+      {width: this.svgBoundings.width, height: this.svgBoundings.height, logging: false}).then((canvas) => {
+      // this.output.nativeElement.appendChild(canvas);
+      this.imgOutputSrc = canvas.toDataURL();
     })
   }
 
