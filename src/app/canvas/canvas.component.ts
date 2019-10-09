@@ -15,10 +15,10 @@ import { map, switchMap, takeUntil, startWith, tap, filter, subscribeOn } from '
 export class CanvasComponent implements OnInit {
   showCanvas = false;
   @ViewChild('canvasOutput', {static: true}) output: ElementRef<HTMLDivElement>;
-  @ViewChild('svgHolder', {static: true}) input: ElementRef<HTMLDivElement>;
-  @ViewChild('imgBackground', {static: true}) svgImage: ElementRef<SVGImageElement>;
+  @ViewChild('svgHolder', {static: true}) svgHolder: ElementRef<HTMLDivElement>;
+  svgImage: SVGImageElement;
   @ViewChild('image', {static: true}) image: ElementRef<HTMLImageElement>;
-  @ViewChild('svgElement', {static: true}) svgElement: ElementRef<HTMLElement>;
+  svgElement: SVGSVGElement;
   backgroundImageY: number;
   backgroundImageX: number;
   backgroundImageWidth: number;
@@ -32,7 +32,12 @@ export class CanvasComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.updateHref()
+    this.httpClient.get('https://raw.githubusercontent.com/brunsten/angular-xeidlf/master/assets/iphone.svg', {responseType:'application/html' }).subscribe((a) =>{
+      this.svgHolder.nativeElement.innerHTML = a;
+      this.svgElement = this.svgHolder.nativeElement.querySelector('svg');
+      this.svgImage = this.svgHolder.nativeElement.querySelector('svg image');
+       this.updateHref();
+    })
     
   }
   ngAfterViewInit() {
@@ -74,7 +79,7 @@ export class CanvasComponent implements OnInit {
       }
       this.backgroundImageY = top
       this.backgroundImageX = left
-          this.svgImage.nativeElement.style.transform = `translate(${left}px, ${top}px)`;
+          this.svgImage.style.transform = `translate(${left}px, ${top}px)`;
 
     });
   }
@@ -82,7 +87,7 @@ export class CanvasComponent implements OnInit {
     
     
       this.output.nativeElement.innerHTML = '';
-      html2canvas.default(this.input.nativeElement as HTMLElement).then((canvas) => {
+      html2canvas.default(this.svgHolder.nativeElement as HTMLElement).then((canvas) => {
       this.output.nativeElement.appendChild(canvas);
     })
   }
@@ -92,30 +97,30 @@ export class CanvasComponent implements OnInit {
       const reader = new FileReader()
        this.onImageLoad = fromEvent(this.image.nativeElement, 'load').pipe(first()).subscribe((e) => {
 
-          this.svgBoundings = this.svgElement.nativeElement.getBoundingClientRect()
+          this.svgBoundings = this.svgElement.getBoundingClientRect()
           const imageBoundings = cover(this.svgBoundings.width, this.svgBoundings.height, this.image.nativeElement.naturalWidth, this.image.nativeElement.naturalHeight);
-          // this.svgImage.nativeElement.height.baseVal.newValueSpecifiedUnits(imageBoundings.height);
-          this.svgImage.nativeElement.setAttribute('height', imageBoundings.height);
-          this.svgImage.nativeElement.setAttribute('width', imageBoundings.width);
+          // this.svgImage.height.baseVal.newValueSpecifiedUnits(imageBoundings.height);
+          this.svgImage.setAttribute('height', imageBoundings.height);
+          this.svgImage.setAttribute('width', imageBoundings.width);
           this.backgroundImageY = imageBoundings.offsetY;
           this.backgroundImageX =  imageBoundings.offsetX;
           this.backgroundImageWidth = imageBoundings.width;
           this.backgroundImageHeight = imageBoundings.height;
-          // this.svgImage.nativeElement.width.baseVal.value = imageBoundings.width;
-          this.svgImage.nativeElement.style.transform = `translate(${imageBoundings.offsetX}px, ${imageBoundings.offsetY}px)`;
+          // this.svgImage.width.baseVal.value = imageBoundings.width;
+          this.svgImage.style.transform = `translate(${imageBoundings.offsetX}px, ${imageBoundings.offsetY}px)`;
           this.setImageBoundings();
         })
       reader.onloadend = () => {
 
        
         this.image.nativeElement.src = reader.result.toString();
-        this.svgImage.nativeElement.href.baseVal = reader.result.toString();
+        this.svgImage.href.baseVal = reader.result.toString();
 
       }
       
       reader.readAsDataURL(blob)
     // this.image.nativeElement.src = e;
-    // this.svgImage.nativeElement.href.baseVal = e;
+    // this.svgImage.href.baseVal = e;
     })
     }
 
