@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="2970" viewBox="0 0 2100 2970">
+  <defs>
+    <clipPath id="clip-A4_PRINT_2">
+      <rect width="2100" height="2970"/>
+    </clipPath>
+  </defs>
+  <g id="A4_PRINT_2" data-name="A4 PRINT #2" clip-path="url(#clip-A4_PRINT_2)">
+    <rect width="2100" height="2970" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1">
+      <rect id="background-boundings" width="2100" height="2970" fill="#acacac"/>
+      <path id="Path_2" data-name="Path 2" d="M0,2970,2100,0" transform="translate(0.5 0.5)" fill="#acacac" stroke="#000" stroke-width="1" opacity="0.257"/>
+      <line id="Line_5" data-name="Line 5" x2="2100" y2="2970" transform="translate(0.5 0.5)" fill="none" stroke="#000" stroke-width="1" opacity="0.254"/>
+    </g>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="1567" height="2432" transform="translate(274 298)" fill="#f0f0f0"/>
+    <line id="Line_2" data-name="Line 2" x2="1278" transform="translate(411.5 806.5)" fill="none" stroke="#00d9af" stroke-width="3" stroke-dasharray="20"/>
+    <line id="Line_3" data-name="Line 3" x2="1278" y2="16" transform="translate(411.5 942.5)" fill="none" stroke="#00c3dd" stroke-width="1" stroke-dasharray="20"/>
+    <line id="Line_7" data-name="Line 7" x2="1278" y2="16" transform="translate(411.5 1071.5)" fill="none" stroke="#00c3dd" stroke-width="1" stroke-dasharray="20"/>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(535 1230)" fill="none" stroke="#ff391f" stroke-width="1" stroke-dasharray="20">
+      <rect width="1031" height="793" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1030" height="792" fill="none"/>
+    </g>
+    <text id="Pre-filled_headline" data-name="Pre-filled headline" transform="translate(1050 779)" font-size="120" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-582.9" y="0">Pre-filled headline</tspan></text>
+    <text id="Pre-filled_sub-headline" data-name="Pre-filled sub-headline" transform="translate(1050 934)" font-size="50" font-family="Merriweather"><tspan x="-369.653" y="0">PRE-FILLED SUB-HEADLINE</tspan></text>
+    <text id="EMPTY_sub-headline_ROW" data-name="EMPTY sub-headline ROW" transform="translate(1058 1064)" font-size="50" font-family="Merriweather" opacity="0.059"><tspan x="-369.58" y="0">EMPTY SUB-HEADLINE ROW</tspan></text>
+    <text id="Pre-filled_Body_copy_here._Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequa" data-name="Pre-filled Body copy here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa" transform="translate(581 1292)" font-size="40" font-family="Merriweather"><tspan x="0" y="39">Pre-filled Body copy here. Lorem ipsum dolor </tspan><tspan x="0" y="99">sit amet, consectetur adipiscing elit, sed do </tspan><tspan x="0" y="159">eiusmod tempor incididunt ut labore et dolore </tspan><tspan x="0" y="219">magna aliqua. Ut enim ad minim veniam, quis </tspan><tspan x="0" y="279">nostrud exercitation ullamco laboris nisi ut </tspan><tspan x="0" y="339">aliquip ex ea commodo consequat. Duis aute </tspan><tspan x="0" y="399">irure dolor in reprehenderit in voluptate velit </tspan><tspan x="0" y="459">esse cillum dolore eu fugiat nulla pariatur. </tspan><tspan x="0" y="519">Excepteur sint occaecat cupidatat non </tspan><tspan x="0" y="579">proident, sunt in culpa qui officia deserunt </tspan><tspan x="0" y="639">mollit anim id est laborum.</tspan></text>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(738 2286)" fill="none" stroke="#35bf00" stroke-width="2" stroke-dasharray="20">
+      <rect width="625" height="336" stroke="none"/>
+      <rect x="1" y="1" width="623" height="334" fill="none"/>
+    </g>
+  </g>
+</svg>
