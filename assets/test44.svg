@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="A4_PRINT_2" data-name="A4 PRINT #2" clip-path="url(#clip-A4_PRINT_2)">
-    <rect width="2100" height="2970" fill="#fff"/>
+    <rect width="2100" height="2970" fill="#fff" transform="translate(411.5 806.5)"/>
     <g id="Group_1" data-name="Group 1">
       <rect id="background-boundings" width="2100" height="2970" fill="#acacac"/>
       <path id="Path_2" data-name="Path 2" d="M0,2970,2100,0" transform="translate(0.5 0.5)" fill="#acacac" stroke="#000" stroke-width="1" opacity="0.257"/>
