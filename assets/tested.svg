@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="2970" viewBox="0 0 2100 2970">
+  <defs>
+    <clipPath id="clip-A4_PRINT_1">
+      <rect width="2100" height="2970"/>
+    </clipPath>
+  </defs>
+  <g id="A4_PRINT_1" data-name="A4 PRINT #1" clip-path="url(#clip-A4_PRINT_1)">
+    <rect width="2100" height="2970" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-144.835 -204.825)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="2390" height="3380" transform="translate(-0.165 -0.175)" fill="#acacac"/>
+      <path id="Path_2" data-name="Path 2" d="M0,3379.575,2389.6,0" transform="translate(0.572 0.574)" fill="#acacac" stroke="#000" stroke-width="1" opacity="0.257"/>
+      <line id="Line_5" data-name="Line 5" x2="2389.599" y2="3379.575" transform="translate(0.572 0.574)" fill="none" stroke="#000" stroke-width="1" opacity="0.254"/>
+    </g>
+    <text id="Empty_headline_row" data-name="Empty headline row" transform="translate(225 453)" font-size="160" font-family="Montserrat-Bold, Montserrat" font-weight="700" opacity="0.037"><tspan x="0" y="0">Empty headline row</tspan></text>
+    <g id="background-boundings" transform="translate(-30 -30)" fill="none" stroke="#707070" stroke-width="3">
+      <rect width="2160" height="3030" stroke="none"/>
+      <rect x="1.5" y="1.5" width="2157" height="3027" fill="none"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M2410.749,1882.836V3122.745H450.855Z" transform="translate(-280 -114)" fill="#f0f0f0"/>
+    <line id="Line_1" data-name="Line 1" x2="1646" transform="translate(227.5 453.5)" fill="none" stroke="#00d9af" stroke-width="3" stroke-dasharray="20"/>
+    <line id="Line_2" data-name="Line 2" x2="1646" transform="translate(227.5 695.5)" fill="none" stroke="#00d9af" stroke-width="3" stroke-dasharray="20"/>
+    <line id="Line_3" data-name="Line 3" x2="1646" transform="translate(227.5 879.5)" fill="none" stroke="#00c3dd" stroke-width="1" stroke-dasharray="20"/>
+    <line id="Line_6" data-name="Line 6" x2="809" transform="translate(1166.5 2901.5)" fill="none" stroke="#00c3dd" stroke-width="2" stroke-dasharray="20"/>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(228 1206)" fill="none" stroke="#ff391f" stroke-width="1" stroke-dasharray="20">
+      <rect width="823" height="958" stroke="none"/>
+      <rect x="0.5" y="0.5" width="822" height="957" fill="none"/>
+    </g>
+    <text id="Pre-filled_headline" data-name="Pre-filled headline" transform="translate(225 692)" font-size="160" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Pre-filled headline</tspan></text>
+    <text id="Pre-filled_sub-headline" data-name="Pre-filled sub-headline" transform="translate(225 873)" font-size="70" font-family="Merriweather"><tspan x="0" y="0">PRE-FILLED SUB-HEADLINE</tspan></text>
+    <text id="EMPTY_SUB-HEADLINE_ROW" data-name="EMPTY SUB-HEADLINE ROW" transform="translate(1976 2895)" font-size="50" font-family="Merriweather" opacity="0.188"><tspan x="-739.16" y="0">EMPTY SUB-HEADLINE ROW</tspan></text>
+    <text id="Pre-filled_Body_copy_here._Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequa" data-name="Pre-filled Body copy here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa" transform="translate(274 1268)" font-size="40" font-family="Merriweather"><tspan x="0" y="39">Pre-filled Body copy here. Lorem </tspan><tspan x="0" y="99">ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="159">adipiscing elit, sed do eiusmod </tspan><tspan x="0" y="219">tempor incididunt ut labore et </tspan><tspan x="0" y="279">dolore magna aliqua. Ut enim ad </tspan><tspan x="0" y="339">minim veniam, quis nostrud </tspan><tspan x="0" y="399">exercitation ullamco laboris nisi ut </tspan><tspan x="0" y="459">aliquip ex ea commodo consequat. </tspan><tspan x="0" y="519">Duis aute irure dolor in </tspan><tspan x="0" y="579">reprehenderit in voluptate velit esse </tspan><tspan x="0" y="639">cillum dolore eu fugiat nulla </tspan><tspan x="0" y="699">pariatur. Excepteur sint occaecat </tspan><tspan x="0" y="759">cupidatat non proident, sunt in </tspan><tspan x="0" y="819">culpa qui officia deserunt mollit </tspan></text>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(1453 2267)" fill="none" stroke="#35bf00" stroke-width="2" stroke-dasharray="20">
+      <rect width="497" height="515" stroke="none"/>
+      <rect x="1" y="1" width="495" height="513" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1166 2483)" fill="none" stroke="#35bf00" stroke-width="2" stroke-dasharray="20">
+      <rect width="784" height="299" stroke="none"/>
+      <rect x="1" y="1" width="782" height="297" fill="none"/>
+    </g>
+  </g>
+</svg>
